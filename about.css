@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600;700;900&family=Fraunces:wght@700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow";
+}
+.nav{
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    color: #fff;
+      
+}
+.menu {
+    list-style: none;
+    display: flex;
+    margin-top: 0;
+  }
+  nav ul li {
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+  }
+  nav ul li:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.548);
+    color: white;
+    font-weight: 700;
+    border-radius: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 0.9rem;
+    border-radius: 20px;
+    
+  }
+.header {
+    background: url("./images/desktop/image-photography.jpg") no-repeat center;
+    align-items: center;
+    height: 1000px;
+    background-size: cover;
+  width: 100%;
+  
+}
+nav .logo {
+    font-family: "Barlow", sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    color: #fff;
+  }
+h1{
+    align-content: center;
+    text-align: center;
+    color: #fff;
+    text-decoration: wavy;
+
+
+}
+p{
+    text-size-adjust: 100px;
+    align-items: center;
+    color: #fff;
+    text-decoration: overline;
+    text-align: center;  
+}
+
+
+.image1{
+    width: 500px;
+    left: 500px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    background-color: hsl(168, 76%, 67%);
+    font-size: 20px;
+    width: 100%;
+  }
+  footer ul {
+    list-style: none;
+    display: flex;
+    margin: 40px 0;
+  }
+  footer ul li {
+    color: hsl(167, 40%, 24%);
+    width: 100px;
+  }
+  footer ul li:hover {
+    color: #fff;
+    cursor: pointer;
+  }
+  footer .logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: hsl(167, 40%, 24%);
+    font-family: "Barlow", sans-serif;
+    font-weight: 900;
+  }
+  footer .social-media {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  footer .social-media .icon {
+    margin: 0 10px;
+  }
+  footer .social-media .icon:hover {
+    cursor: pointer;
+    filter: invert(0) grayscale(20%) saturate(700);
+  }
